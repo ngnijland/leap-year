@@ -1,0 +1,52 @@
+.title {
+  margin: 2.25rem 0;
+
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+
+  text-align: left;
+
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  font-size: 1.125rem;
+}
+
+.listItemIcon {
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 3.125rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .listItem {
+    font-size: 2rem;
+  }
+
+  .listItemIcon {
+    margin-right: 1rem;
+
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

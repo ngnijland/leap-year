@@ -1,0 +1,35 @@
+:root {
+  --textColor: #001f3f;
+  --textColorOpposite: #dcedf3;
+  --baseColor: #dcedf3;
+  --darkColor: #bbc9cf;
+  --lightColor: #fdffff;
+  --firstGradientColor: #dcedf3;
+  --secondGradientColor: #dcedf3;
+}
+
+html {
+  height: 100%;
+
+  font-family: Muli, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--textColor);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--baseColor);
+}
+
+a {
+  font-weight: 700;
+  color: var(--textColor);
+}
