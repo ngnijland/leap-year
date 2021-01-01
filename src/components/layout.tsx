@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps): JSX.Element {
       <main className={layoutStyles.root}>{children}</main>
       <a
         className={layoutStyles.link}
-        href="https://twitter.com/nieknijland"
+        href="https://twitter.com/ngnijland"
         title="Created by Niek Nijland, link to Twitter"
       >
         <TwitterIcon width="32" height="32" />
